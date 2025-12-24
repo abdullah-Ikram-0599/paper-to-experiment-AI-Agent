@@ -6,8 +6,6 @@ The pipeline automates:
 
 **Paper → Parsing → Method Extraction → Experiment Design**
 
---
-
 ## Why This Project?
 
 Research papers explain *what was done*, not *how to reproduce it*.  
@@ -16,8 +14,6 @@ This project bridges that gap by translating paper text into actionable experime
 - Runs **100% locally**
 - No cloud APIs
 - Focused on research understanding and experiment ideation
-
----
 
 ## Pipeline
 
@@ -33,11 +29,9 @@ Experiment Agent
 
 Each agent has a single responsibility, keeping the system modular and extensible.
 
----
-
 ## Project Structure
 
-```text
+```
 paper-to-experiment/
 ├── agents/
 │   └── prompts/
@@ -53,11 +47,9 @@ paper-to-experiment/
 
 ## Usage
 
-python main.py -- "paper_pdf_name"  
+```python main.py -- "paper_pdf_name"  ```
 
 Outputs are saved step-by-step inside the `outputs/` directory.
-
----
 
 ## Tech Stack
 
@@ -66,16 +58,12 @@ Outputs are saved step-by-step inside the `outputs/` directory.
 - Qwen-2.5-Instruct  
 - Modular agent-based design  
 
----
-
 ## Intended Use
 
 - ML / AI researchers  
 - Graduate students  
 - Research engineers  
 - Translating papers into experiments  
-
----
 
 ## Limitations
 
