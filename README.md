@@ -47,7 +47,8 @@ paper-to-experiment/
 
 ## Usage
 
-```python main.py -- "paper_pdf_name"  ```
+```bash 
+  python main.py -- "paper_pdf_name"```
 
 Outputs are saved step-by-step inside the `outputs/` directory.
 
