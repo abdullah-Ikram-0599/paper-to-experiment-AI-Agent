@@ -75,7 +75,7 @@ paper-to-experiment/
 **Step 5: Run the pipeline:**
 
 ```
-python main.py -- "paper.pdf"
+python main.py "paper.pdf"
 ```
 
 **Step 6: Outputs are saved step-by-step inside the `outputs/` directory.**
