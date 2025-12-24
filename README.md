@@ -37,6 +37,7 @@ Each agent has a single responsibility, keeping the system modular and extensibl
 
 ## Project Structure
 
+```text
 paper-to-experiment/
 ├── agents/
 │   └── prompts/
@@ -46,8 +47,8 @@ paper-to-experiment/
 │   ├── parsed/
 │   ├── method/
 │   └── experiment/
-└── main.py 
-
+└── main.py
+```
 ---
 
 ## Usage
