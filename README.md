@@ -9,7 +9,8 @@ The pipeline automates:
 ## Why This Project?
 
 Research papers explain *what was done*, not *how to reproduce it*.  
-This project bridges that gap by translating paper text into actionable experimental designs.  
+
+This project bridges that gap by translating paper text into actionable experimental insights.   
 
 - Runs **100% locally**
 - No cloud APIs
@@ -48,15 +49,15 @@ paper-to-experiment/
 
 **Step 1: Clone this repository:** 
 
-```bash git clone https://github.com/abdullah-Ikram-0599/paper-to-experiment-AI-Agent/```
+```git clone https://github.com/abdullah-Ikram-0599/paper-to-experiment-AI-Agent/```
 
 **Step 2: Install Required libraries:**
 
-```bash pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 **Step 3: Pull the model from Ollama:** (Note: This requires 4.2 GB free space on local storage)
 
-```bash ollama pull krith/qwen2.5-coder-32b-instruct:IQ3_M```
+```ollama pull krith/qwen2.5-coder-32b-instruct:IQ3_M```
 
 **Step 4: Place your research paper in the project root:**
 
@@ -67,7 +68,7 @@ paper-to-experiment/
 
 **Step 5: Run the pipeline:**
 
-```bash python main.py -- "paper.pdf"```
+```python main.py -- "paper.pdf"```
 
 **Step 6: Outputs are saved step-by-step inside the `outputs/` directory.**
 
